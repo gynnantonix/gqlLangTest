@@ -1,0 +1,15 @@
+{
+  "name": "gqlLangTest",
+  "version": "1.0.0",
+  "description": "Test of GraphQL language machinery",
+  "main": "index.js",
+  "author": "cmitchell@2u.com",
+  "private": true,
+  "scripts": {
+    "test": "jest --testRegex index.js ."
+  },
+  "dependencies": {
+    "graphql": "^0.13.1",
+    "jest": "^22.4.2"
+  }
+}
